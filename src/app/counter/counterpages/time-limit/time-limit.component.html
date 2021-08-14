@@ -1,0 +1,25 @@
+<div class="container">
+
+    <ul class="flex-outer">
+        <li>
+            <label for="timelimit">Enter Time Limit :</label>
+            <input type="number" id="timelimit" [(ngModel)]="timerCountdownValue" (input)="entertime()" min="1" required>
+        </li>
+        <li>
+            <button type="submit" (click)='component2Emitter()' [disabled]="disablesubmit">{{(!showHideButtonValue) ?
+                'START' : 'PAUSE'
+                }}</button>
+            <button type="submit" (click)='component2EmitterReset()'>Reset</button>
+        </li>
+
+        <!-- <li *ngFor="let data of pausecycle| slice:-2" class="listpaused">
+            Paused At:{{data}}
+        </li> -->
+       
+    </ul>
+    <br/>
+    <span  class="listpaused">
+        Paused At: {{pausecycle.toString()}}
+    </span>
+</div>
+<!-- <app-log-time-stamp [noOfTimeStarteds]="noOfTimeStarted" [noOfTimePauseds]="noOfTimePaused"></app-log-time-stamp> -->

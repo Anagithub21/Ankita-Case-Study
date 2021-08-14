@@ -1,0 +1,38 @@
+<mat-sidenav-container>
+
+	<mat-sidenav #sidenav mode="over">
+		<label>Case Study</label>
+		<hr />
+		<nav>
+			<a routerLink="banner" (click)="clickHandler()" routerLinkActive="active">Banner</a>
+			<a routerLink="category" (click)="clickHandler()" routerLinkActive="active">Category</a>
+			<a routerLink="counter" (click)="clickHandler()" routerLinkActive="active">Counter</a>
+			<a routerLink="serviceCounter" (click)="clickHandler()" routerLinkActive="active">Servicecounter</a>
+			<a routerLink="studenttable" (click)="clickHandler()" routerLinkActive="active">Table</a>
+			<a routerLink="grid" (click)="clickHandler()" routerLinkActive="active">Grid</a>
+
+		</nav>
+	</mat-sidenav>
+
+	<mat-sidenav-content>
+		<mat-toolbar color="primary">
+			<header>
+
+				<mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+				<label>Case Study</label>
+				<nav>
+					<a routerLink="banner" routerLinkActive="active">Banner</a>
+					<a routerLink="category" routerLinkActive="active">Category</a>
+					<a routerLink="counter" routerLinkActive="active">Counter</a>
+					<a routerLink="serviceCounter" routerLinkActive="active">Servicecounter</a>
+					<a routerLink="studenttable" routerLinkActive="active">Table</a>
+					<a routerLink="grid" routerLinkActive="active">Grid</a>
+
+				</nav>
+			</header>
+		</mat-toolbar>
+		<section>
+			<router-outlet></router-outlet>
+		</section>
+	</mat-sidenav-content>
+</mat-sidenav-container>

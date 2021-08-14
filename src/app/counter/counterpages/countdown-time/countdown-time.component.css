@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box .item1 {
+ margin-top: 50px;
+ font-weight: bolder;
+}
+.box .item2{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 70px;
+}

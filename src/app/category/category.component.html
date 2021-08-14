@@ -1,0 +1,19 @@
+<div class="maincontainer">
+    <div class="flex-item parentitem">
+        <div class="item1">
+            <mat-icon (click)="changelayout('GRID')" style="cursor: pointer;">view_module</mat-icon>
+            <mat-icon>more_vert</mat-icon>
+            <mat-icon (click)="changelayout('LIST')" style="cursor: pointer;">view_headline</mat-icon>
+        </div>
+        <div class="item2">
+            <select (change)="pricefilter($event)">
+                <option value="default">Filter with price</option>
+                <option value="pricedesc">Price Low to High</option>
+                <option value="priceasc">Price Heigh to Low</option>
+            </select>
+        </div>
+    </div>
+    <div class="flex-item  griditem">
+        <app-layout [items]="itemarr" [type]="layouttype"></app-layout>
+    </div>
+</div>

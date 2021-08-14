@@ -1,0 +1,103 @@
+#container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    height: 700px; 
+    /* border: 1px solid black;  */
+    /* background-color: rgb(238, 238, 238);  */
+    /* width:400px; */
+    /* position: relative; */
+    /* animation: myfirst 5s linear 2s infinite alternate; */
+}
+
+/* .box {
+    border: 1px solid black;
+    background: aqua; 
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    width:500px;
+    height: 100px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {width: 500px;height:100px;}
+    25%  {width:600px;height:200px;}
+    50% {width:650px;height:250px;}
+    75%  {width:600px;height:200px;}
+    100% {width:500px;height:100px;}
+  }
+
+  
+  @keyframes myfirst {
+    0%   {background-color:red; width:500px;left:0px; top:0px;}
+    25%  {background-color:yellow; width:400px;left:600px; top:0px;}
+    50%  {background-color:blue; width:500px;left:600px; top:600px;}
+    75%  {background-color:green; width:400px;left:0px; top:600px;}
+    100% {background-color:red; width:500px;left:0px; top:0px;}
+  } */
+
+
+  .element {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+    line-height: 1.5;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+  }
+   img{
+    /* line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle; */
+    height: 50%;
+    width:50%;
+    border-radius: 30%;
+    margin-top: 25px;
+    }
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: red;
+      border-radius: 50%;
+    }
+    50% {
+      background-color: orange;
+    }
+    75%{
+      transform: scale(1.5);
+      background-color: burlywood;
+      border-radius: 25%;
+    }
+    100% {
+      transform: scale(2.5);
+      background-color: rgb(247, 247, 169);
+      border-radius: 15%;
+    }
+  }
+ 
+  /* body,
+  html {
+    height: 100%;
+  } */
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

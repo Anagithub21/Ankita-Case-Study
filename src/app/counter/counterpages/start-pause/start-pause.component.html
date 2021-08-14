@@ -1,0 +1,7 @@
+<ng-container *ngIf='logEvents.length'>
+
+    <div *ngFor='let log of logEvents'>
+       <span> <b>{{log.StartedAt?'StartedAt ':'PausedAt '}}</b>  <b>{{log.StartedAt?(log.StartedAt|date:'dd-mm-yyyy hh:m:ss a') : (log.PausedAt|date:'dd-mm-yyyy hh:m:ss a')}}</b>
+       </span>
+    </div>
+</ng-container>

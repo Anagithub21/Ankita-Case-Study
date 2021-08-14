@@ -1,0 +1,6 @@
+<div class="grid-container" [ngClass]="type=='GRID'?'type1':'type2'">
+    <div class="grid-item" [ngClass]="type=='GRID'?'typeitem1':'typeitem2'" *ngFor="let item of items" >
+        <img src="{{item.img}}" alt="">
+        <strong>Order No:</strong> {{item.order}} 
+        <strong>Price:</strong> Rs{{item.price}}</div>
+</div>

@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "Ankita",
+        "Class": 12,
+        "Section": "A",
+        "Sub1": 23,
+        "Sub2": 54,
+        "Sub3": 65
+    },
+    {
+        "Name": "Abhishek",
+        "Class": 11,
+        "Section": "B",
+        "Sub1": 21,
+        "Sub2": 58,
+        "Sub3": 69
+    },
+    {
+        "Name": "Apoorva",
+        "Class": 10,
+        "Section": "C",
+        "Sub1": 13,
+        "Sub2": 54,
+        "Sub3": 65
+    },
+    {
+        "Name": "Nidhi",
+        "Class": 12,
+        "Section": "A",
+        "Sub1": 13,
+        "Sub2": 58,
+        "Sub3": 69
+    },
+    {
+        "Name": "Manoj",
+        "Class": 5,
+        "Section": "C",
+        "Sub1": 23,
+        "Sub2": 54,
+        "Sub3": 65
+    },
+    {
+        "Name": "Pritam",
+        "Class": 6,
+        "Section": "B",
+        "Sub1": 23,
+        "Sub2": 44,
+        "Sub3": 15
+    },
+    {
+        "Name": "Zeetan",
+        "Class": 8,
+        "Section": "D",
+        "Sub1": 23,
+        "Sub2": 44,
+        "Sub3": 15
+    },
+    {
+        "Name": "Devi",
+        "Class": 6,
+        "Section": "B",
+        "Sub1": 53,
+        "Sub2": 84,
+        "Sub3": 16
+    },
+    {
+        "Name": "Chinni",
+        "Class": 5,
+        "Section": "B",
+        "Sub1": 23,
+        "Sub2": 44,
+        "Sub3": 15
+    },
+    {
+        "Name": "Deepali",
+        "Class": 7,
+        "Section": "D",
+        "Sub1": 23,
+        "Sub2": 44,
+        "Sub3": 15
+    },
+    {
+        "Name": "Fred",
+        "Class": 12,
+        "Section": "B",
+        "Sub1": 23,
+        "Sub2": 44,
+        "Sub3": 15
+    }
+]

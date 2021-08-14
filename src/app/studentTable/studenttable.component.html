@@ -1,0 +1,22 @@
+<div id="container">
+    <div class="box" id="bluebox">
+        <div style="text-align:center">
+            <table datatable [dtOptions]="dtOptions"  [dtTrigger]="dtTrigger" class="row-border hover" id="student" matSort
+                (matSortChange)="sortData($event)"  matSortDirection="asc">
+                <thead>
+                    <tr>
+                        <th *ngFor="let head of header[0]" mat-sort-header="{{head}}">{{head}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of sortedData ">
+                        <td *ngFor="let head of header[0]">
+                            {{item[head]}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
